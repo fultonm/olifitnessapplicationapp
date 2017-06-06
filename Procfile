@@ -1,1 +1,1 @@
-web: python3 manage.py 8080
+web: python manage.py 8080
