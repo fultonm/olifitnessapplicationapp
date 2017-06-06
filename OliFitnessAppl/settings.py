@@ -23,9 +23,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'f*u&1tsq0&o#-%zdv(%z-f!tdmn)&-ko24qwows)y*^+8fq!f*'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['ancient-taiga-22974.herokuapp.com']
+ALLOWED_HOSTS = ['ancient-taiga-22974.herokuapp.com', 'localhost']
 
 
 # Application definition

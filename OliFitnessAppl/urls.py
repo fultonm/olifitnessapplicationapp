@@ -17,6 +17,7 @@ from django.conf.urls import include, url
 from django.contrib import admin
 
 urlpatterns = [
+    url(r'^', include('root.urls')),
     url(r'^interview/', include('interview.urls')),
     # Although the instructions specify there should be no trailing slash, Google Chrome and other
     # browsers automatically append a slash, resulting in no page being shown. Have both with a
